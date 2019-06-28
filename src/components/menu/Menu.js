@@ -32,6 +32,7 @@ const Menu = () =>{
                 <li> <Link to='/montesori'>Монтесорі</Link></li>
                 <li><Link to='/inClub'>Вступ у Клуб</Link></li>
                 <li><Link to='/interesting'>Цікаві речі</Link></li>
+                <li><Link to='/health'>Здоров’я</Link></li>
                 <li><Link to='/contact'>Contact</Link></li>
             </ul>
 

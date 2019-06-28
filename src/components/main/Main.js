@@ -8,6 +8,7 @@ import AboutClub from './../aboutClub/AboutClub';
 import Montesori from './../montesori/Montesori';
 import InClub from './../inClub/InClub';
 import Interesting from './../interesting/Interesting';
+import Health from './../health/Health';
 import Contact from './../contact/Contact';
 
 
@@ -57,6 +58,7 @@ const Main =()=>{
             <Route exact path='/montesori' component={Montesori}/>
             <Route exact path='/inClub' component={InClub}/>
             <Route exact path='/interesting' component={Interesting}/>
+            <Route exact path='/health' component={Health}/>
             
             <Route exact path='/contact' component={Contact}/>
             
