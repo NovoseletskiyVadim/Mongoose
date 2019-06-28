@@ -7,7 +7,7 @@ const Contact =()=>{
 
     return(
         <div className='contact'>
-            <p> это страница "Contact"</p>
+            <p> это страница "Контакти"</p>
         </div>
     );
 };

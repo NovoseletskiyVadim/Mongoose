@@ -33,7 +33,8 @@ const Menu = () =>{
                 <li><Link to='/inClub'>Вступ у Клуб</Link></li>
                 <li><Link to='/interesting'>Цікаві речі</Link></li>
                 <li><Link to='/health'>Здоров’я</Link></li>
-                <li><Link to='/contact'>Contact</Link></li>
+                <li><Link to='/photoAndEvents'>Фотогалерея та події</Link></li>
+                <li><Link to='/contact'>Контакти</Link></li>
             </ul>
 
         </div>
