@@ -5,7 +5,7 @@ import Menu from './../menu/Menu';
 import {Route} from './../menu/Router';
 import Home from '../home/Home';
 import AboutClub from './../aboutClub/AboutClub';
-import About from './../about/About';
+import Montesori from './../montesori/Montesori';
 import Resume from './../resume/Resume';
 import Contact from './../contact/Contact';
 
@@ -54,7 +54,7 @@ const Main =()=>{
             <Route exact path='/' component={Home}/>
             <Route path='/aboutClub' component={AboutClub}/>
             <Route exact path='/resume' component={Resume}/>
-            <Route exact path='/about' component={About}/>
+            <Route exact path='/montesori' component={Montesori}/>
             <Route exact path='/contact' component={Contact}/>
             <Route exact path='/re' render={()=><p>Сделано в кузнице</p>}/>
             
