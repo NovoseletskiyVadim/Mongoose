@@ -6,7 +6,7 @@ import {Route} from './../menu/Router';
 import Home from '../home/Home';
 import AboutClub from './../aboutClub/AboutClub';
 import Montesori from './../montesori/Montesori';
-import Resume from './../resume/Resume';
+import InClub from './../inClub/InClub';
 import Contact from './../contact/Contact';
 
 
@@ -53,7 +53,7 @@ const Main =()=>{
             {/* exact - проверяет полное совпадение пути  path */}
             <Route exact path='/' component={Home}/>
             <Route path='/aboutClub' component={AboutClub}/>
-            <Route exact path='/resume' component={Resume}/>
+            <Route exact path='/inClub' component={InClub}/>
             <Route exact path='/montesori' component={Montesori}/>
             <Route exact path='/contact' component={Contact}/>
             <Route exact path='/re' render={()=><p>Сделано в кузнице</p>}/>

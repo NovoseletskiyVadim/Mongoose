@@ -30,7 +30,7 @@ const Menu = () =>{
                 <li> <Link to='/'>Головна</Link></li>
                 <li><Link to='/aboutClub'>Про Клуб</Link></li>
                 <li> <Link to='/montesori'>Методики Монтесорі та...</Link></li>
-                <li><Link to='/resume'>Resume</Link></li>
+                <li><Link to='/inClub'>Вступ у Клуб</Link></li>
                 <li><Link to='/contact'>Contact</Link></li>
             </ul>
 
