@@ -4,7 +4,7 @@ import './../menu/Menu';
 import Menu from './../menu/Menu';
 import {Route} from './../menu/Router';
 import Home from '../home/Home';
-import Portfolio from './../portfolio/Portfolio';
+import AboutClub from './../aboutClub/AboutClub';
 import About from './../about/About';
 import Resume from './../resume/Resume';
 import Contact from './../contact/Contact';
@@ -52,7 +52,7 @@ const Main =()=>{
 
             {/* exact - проверяет полное совпадение пути  path */}
             <Route exact path='/' component={Home}/>
-            <Route path='/portfolio' component={Portfolio}/>
+            <Route path='/aboutClub' component={AboutClub}/>
             <Route exact path='/resume' component={Resume}/>
             <Route exact path='/about' component={About}/>
             <Route exact path='/contact' component={Contact}/>
