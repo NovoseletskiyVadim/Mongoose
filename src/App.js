@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.scss';
 import './components/main/Main';
 import AdressPanel from './components/adressPanel/AdressPanel';
+import LogoPanel  from './components/logoPanel/logoPanel';
 import Main from './components/main/Main';
 
 class App extends Component {
@@ -15,7 +16,11 @@ class App extends Component {
         
         <AdressPanel/>
 
+        <LogoPanel/>
+
         <Main/>
+
+
         
       </div>
     );
