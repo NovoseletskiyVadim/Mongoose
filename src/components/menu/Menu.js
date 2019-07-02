@@ -28,12 +28,12 @@ const Menu = () =>{
         <div className='menu'>
             <ul>
                 <li> <Link to='/'>Головна</Link></li>
-                <li><Link to='/aboutClub'>Про Клуб</Link></li>
-                <li> <Link to='/montesori'>Монтесорі</Link></li>
-                <li><Link to='/inClub'>Вступ у Клуб</Link></li>
-                <li><Link to='/interesting'>Цікаві речі</Link></li>
+                <li><Link to='/aboutClub'>Про нас</Link></li>
+                <li> <Link to='/montesori'>Методики</Link></li>
+                <li><Link to='/inClub'>Вступ</Link></li>
+                <li><Link to='/interesting'>Сім’я</Link></li>
                 <li><Link to='/health'>Здоров’я</Link></li>
-                <li><Link to='/photoAndEvents'>Фотогалерея та події</Link></li>
+                <li><Link to='/photoAndEvents'>Фотогалерея</Link></li>
                 <li><Link to='/contact'>Контакти</Link></li>
             </ul>
 
