@@ -59,6 +59,8 @@ class MobileMenu extends Component{
                             <li  ><a href="#inClub">вступ до клубу</a></li>
                             <li  ><a href="#calendar">календар</a></li>
                             <li  ><a href="#contacts">контакти</a></li>
+                            <li  ><a href="#contacts"><i className="fab fa-facebook-f fa-lg"></i> facebook</a></li>
+                            <li  ><a href="#contacts"><i className="fab fa-instagram fa-lg"></i> instagram</a></li>
                             <li  ><a className="CallMe"><i className="icon-home"></i>зателефонувати:</a></li>
                             <li  > <a href="tel:+380976037658"> <i className="fas fa-phone"></i> +38(068)554-65-84</a></li>
                             <li  > <a href="tel:+380509253750"> <i className="fas fa-phone"></i> +38(095)578-18-22</a></li>                       
