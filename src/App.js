@@ -4,8 +4,8 @@ import './App.scss';
 import './components/main/Main';
 import AdressPanel from './components/adressPanel/AdressPanel';
 import LogoPanel  from './components/logoPanel/logoPanel';
-import Main from './components/main/Main';
-
+import LendingMenu from './components/_menu/Menu';
+import MobileMenu from './components/_mobileMenu/MobileMenu';
 class App extends Component {
   render() {
     return (
@@ -16,9 +16,13 @@ class App extends Component {
         
         <AdressPanel/>
 
+        <MobileMenu/>
+
         <LogoPanel/>
 
-        <Main/>
+        <LendingMenu/>
+
+
 
 
         
