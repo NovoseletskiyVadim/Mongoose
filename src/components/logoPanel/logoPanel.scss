@@ -20,12 +20,16 @@
     };
 
     i.fa-facebook-f{
-        margin-top: 1em;
+        line-height: 250%;      
     };
 
     i.fa-instagram{
-        margin-top: 1em;
-        margin-left: 1em;
-
+        line-height: 250%;
     };
 };
+
+@media (max-width: 767px) {
+
+    .logoPanel{display: none;}
+
+}
