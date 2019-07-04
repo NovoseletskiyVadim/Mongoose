@@ -15,8 +15,8 @@ const LogoPanel=()=>{
                 <p>дитячий клуб</p>
             </div>
             <div className='cols col-4'>
-                <i class="fab fa-facebook-f fa-4x"></i>   
-                <i class="fab fa-instagram fa-4x"></i>
+                <i className="fab fa-facebook-f fa-4x"></i>   
+                <i className="fab fa-instagram fa-4x"></i>
             </div>
         </div>
 
