@@ -52,7 +52,7 @@ class MobileMenu extends Component{
                 <div className='cols col-12'>
                     <a  className="mobile-menu" href="#" onClick={this.handlerDropDownClick}><i className="icon-reorder"></i>відкрити меню  <i  className="fas fa-align-justify"></i> </a>
                     <nav>
-                        <ul className="mobileMenu" onClick={this.handlerDropDownClick} style={{display: dropDownVisible ? 'none' : 'block'}}>
+                        <ul className="mobileMenu" onClick={this.handlerDropDownClick} style={{display: dropDownVisible ? 'block' : 'none'}}>
                             <li  ><a href="#main"><i className="icon-home"></i>головна</a></li>
                             <li  ><a  href="#about">про нас</a></li>
                             <li  ><a  href="#montesori">методики</a></li>
