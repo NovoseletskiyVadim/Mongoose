@@ -10,7 +10,7 @@
     text-transform:uppercase;
     font-weight:600;
     border-bottom: 1px solid white;
-    overflow: hidden;
+    
 
     :hover{
         background:#3E4156;
@@ -44,6 +44,8 @@
         
         margin-top: 0em;
         padding-left: 0em;
+        overflow: scroll;
+        height: 300px;
 
         ul{top:4em;}
 
